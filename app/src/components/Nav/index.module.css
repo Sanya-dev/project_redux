@@ -1,0 +1,17 @@
+.nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: aquamarine;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.nav .active { 
+    border-bottom: 2px solid black;
+}

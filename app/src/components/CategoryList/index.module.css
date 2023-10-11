@@ -1,0 +1,10 @@
+.wrapper{
+    max-width: 900px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    text-align: center;
+    gap: 40px 20px;
+    padding: 20px;
+}
